@@ -78,3 +78,56 @@ valida_dominio() {
 
         fi
 }
+
+#### Tabela de Cores
+A maior parte dos usuários classificam shell script como uma linguagem de fácil aprendizagem. Mas na verdade é difícil. O primeiro passo é, saber o que se deseja fazer, então ver qual o código que executa este comando em shell e aí criar, basta escrever o código em algum editor de texto e salvar. Veja só por exemplo, que de tempos em tempos você quer saber informações do sistema, instalar programas, remover programas, converter/alterar arquivos, fazer backups, adicionar informações, remover informações, etc.
+
+.
+
+Dicas:
+
+.
+
+Não usar shell script como root.
+
+.
+
+O shell script Linux usando o interptetador de comandos Bash começa com o shebang:
+
+#!/bin/bash
+
+.
+
+Um script pode ser executado de dois modos:
+
+1
+
+bash MeuScript.sh
+
+2
+
+Dar permissão e executar:
+
+chmod +x MeuScript.sh
+
+./MeuScript.sh
+
+.
+
+Linux shell script imprimir saída colorida
+
+.
+
+Um script pode usar sequências de escape para produzir textos coloridos no terminal. As cores são representadas por códigos, temos 9 códigos:
+
+#reset = 0
+#black = 30
+#red = 31
+#green = 32
+#yellow = 33
+#blue = 34
+#magenta = 35
+#cyan = 36
+#white = 37
+
+
