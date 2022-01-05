@@ -31,3 +31,5 @@ echo "---------------------------------------------------"
 # Essa funcao verifica se ha alguma ocorrencia seja backend ou seja acl com o dominio fornecido pelo usuario, caso nao tenha nenhum registro no arquivo do haproxy o script sera interrompido
 
 read -p "Digite o dominio (teste.gob.br): " dominio;
+
+valida_dominio "$dominio" "$path_haproxy" "$path_haproxy_certs"
