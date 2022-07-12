@@ -5,7 +5,7 @@
 #############################################################################
 
 
-email="linux@ati.pe.gov.br"
+email="" # Adicionar o e-mail padrão para criação de certificado da ATI
 porta="54321"
 path_haproxy="/etc/haproxy/haproxy.cfg"
 path_haproxy_certs="/etc/haproxy/certs"
